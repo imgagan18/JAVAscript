@@ -1,2 +1,3 @@
 # JAVAscript
-projects in 1 hr
+basic notes and projects for java script 
+
