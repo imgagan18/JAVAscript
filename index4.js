@@ -84,6 +84,84 @@ function sum(...numbers){
     }
    return total;
 }
+// -------------------------------------------------------------------
+
+// array for each
+
+// let students=["gagan", "nikki", "aayansh", "ayussh"];
+// students.forEach(capitalise);
+// students.forEach(print);
+
+// function capitalise(element,index,array){
+//     array[index]=element[0].toUppercase() +element.substring(1);
+// }
+
+// function print(element){
+//     console.log(element);
+// }
+
+// -------------------------------------------------------------------
+//function expression - function without a name
+
+// let count= 0 ;
+
+// document.getElementById("increase btn").onclick=function(){
+//     count +=1;
+//     document.getElementById("Mylabel").innerHTML=count;
+// }
+
+// document.getElementById("decrease btn").onclick=function(){
+//     count -=1;
+//     document.getElementById("Mylabel").innerHTML=count;
+// }
+// function increaseCount(){
+//     count +=1;
+//     document.getElementById("Mylabel").innerHTML=count;
+// }
+// function decreasecount(){
+//     count -=1;
+//     document.getElementById("Mylabel").innerHTML=count;
+// }
+
+// -------------------------------------------------------------------
+
+//arrow function=compact altenative to a function expression
+
+// const greeting=(username)=> console.log(`hello ${username}`);
+//   greeting("ayshh");
+// const percentage=(x,y)=> x / y * 100;
+// console.log(`${percentage(120,150)}%`)
+
+// let grades=[10,20,500,40,65];
+
+// grades.sort( (x,y)=>
+//      y-x
+//  );
+// grades.forEach( (element)=>
+//     console.log(element)
+// )
+
+//---------------------------------------------------------------------------------
+//shuffle an array(used for card games)
+
+// let cards = ["a", "2", "3", "4", "5", "6", "7", "8", "9", "j", "q", "k"];
+
+// shuffle(cards);
+// console.log(cards);
+
+// function shuffle(array) {
+//   let currentIndex = array.length;
+
+//   while (currentIndex != 0) {
+//     let randonIndex = Math.floor(Math.random() * array.length);
+//     currentIndex -= 1;
+
+//     let temp = array[currentIndex];
+//     array[currentIndex] = array[randonIndex];
+//     array[randonIndex] = temp;
+//   }
+// }
+
 
 
 
