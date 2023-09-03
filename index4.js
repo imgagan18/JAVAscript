@@ -31,6 +31,40 @@
 // }
 
 
+
+//---------------------------------------------------------------------------------
+//nested functions 
+
+// let username="gagan";
+// let userINBOX=0;
+
+// login();
+
+// function login(){
+//     Displayusername();
+//     DisplayUserINBOX();
+//     function Displayusername(){
+//         console.log(`welcome ${username}`);
+//      }
+//      function DisplayUserINBOX(){
+//         console.log(`you have ${userINBOX} messages ${username}`);
+//     }
+// }
+
+//---------------------------------------------------------------------------------
+// MAPS in js - holds a key value pair of any data item
+
+// const store=new Map([
+//     ["nikki" , 500],
+//     ["aayush" , 500],
+//     ["aayansh" , 500],
+//     ["nikki" , 500],
+//     ["jaibro" , 500]
+// ]);
+
+// store.forEach((value,key) => console.log(`${key} ${value}`));
+
+
 // 2 d array
 
 // let fruits=["apple" ,"banana", "grapes" ];
