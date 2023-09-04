@@ -86,3 +86,43 @@ class student{
  console.log(student2.gpa);
  student2.study();
 
+
+-----------------------------------------------------------------------------
+
+ class animal {
+  alive = true;
+  eat(){
+    console.log(`this ${this.name} can eat `);
+  }
+  sleep()  {
+    console.log(`this ${this.name} can sleep `);
+  }
+}
+
+class Rabbit extends animal {
+  name = "rabbit";
+  run() {
+    console.log(`this ${this.name} can run `);
+  }
+}
+
+class Fish extends animal {
+  name = "fish";
+  swim() {
+    console.log(`this ${this.name} can swim `);
+  }
+}
+
+class Hawk extends animal {
+  name = "hawk";
+
+  fly() {
+    console.log(`this ${this.name} can fly `);
+  }
+}
+
+const rabbit = new Rabbit();
+const fish = new Fish();
+const hawk = new Hawk();
+
+console.log(rabbit.sleep);
