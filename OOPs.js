@@ -126,3 +126,7 @@ const fish = new Fish();
 const hawk = new Hawk();
 
 console.log(rabbit.sleep);
+
+-----------------------------------------------------------------------------
+getters and setters 
+
