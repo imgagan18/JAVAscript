@@ -130,3 +130,28 @@ console.log(rabbit.sleep);
 -----------------------------------------------------------------------------
 getters and setters 
 
+class Car{
+    constructor(power){
+        this._gas=100;
+        this._power = power;
+    }
+    get gas(){
+        return`${this._gas} (${this._gas/500*100})%`
+    }
+    get power(){
+       return `${this._power} HP`;
+    }
+   set gas(value){
+     if (value>50){
+        value=50;
+     }
+     else if (value < 0){
+       value=0;
+     }
+     this.gas=value;
+       }
+}
+
+let car=new Car(400);
+console.log(car.power);
+console.log(car.gas);
