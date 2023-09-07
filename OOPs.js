@@ -1,5 +1,5 @@
-OBJECT ORIENTED PROGRAMMING
-object- group of proterties and method properties
+// OBJECT ORIENTED PROGRAMMING
+// object- group of proterties and method properties
 const car1= {
     model:"Mustang",
     colour:"RED",
@@ -32,9 +32,9 @@ const car2= {
 console.log(car2.Year);
 car2.drive();
 
------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 
-classes - blueprint for creating classes
+// classes - blueprint for creating classes
 
 class player {
   score = 0;
@@ -60,9 +60,9 @@ player1.pause();
 player1.exit();
 
 
------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 
-constructors:special method of a class its job is to acpet and assign arguements
+// constructors:special method of a class its job is to acpet and assign arguements
 
 class student{
     constructor(name,age,gpa){
@@ -87,7 +87,7 @@ class student{
  student2.study();
 
 
------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 
  class animal {
   alive = true;
@@ -127,8 +127,8 @@ const hawk = new Hawk();
 
 console.log(rabbit.sleep);
 
------------------------------------------------------------------------------
-getters and setters 
+// -----------------------------------------------------------------------------
+// getters and setters 
 
 class Car{
     constructor(power){
